@@ -238,10 +238,19 @@ li>a:first-child {
     width: 450px;
     height: 256px;
 }
-.strpriceblock {
+
+
+.strpricesec {
 	background-image: url(/images/strpriceblock.png);
 	background-repeat: no-repeat;
 	height: 100vh; 
+}
+.strpriceblock {
+width: 50%;
+    text-align: left;
+    line-height: 25px;
+    font-size: 1em;
+    display: inline-block
 }
 .strpriceblockprice {
 	font-size: 5em;
