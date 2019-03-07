@@ -257,6 +257,7 @@ width: 50%;
 	font-size: 5em;
 	color: #001298;
 	    display: inline-block;
+	vertical-align: middle;
 }
 .strblockpaddt {
 	padding-top: 150px;
