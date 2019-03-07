@@ -1,14 +1,14 @@
 @font-face {
 	font-family: "Futura_Book-Normal";
-	src: url(fonts/Futura_Book-Normal.ttf);
+	src: url(/fonts/Futura_Book-Normal.ttf);
 }
 @font-face {
 	font-family: "moolboran";
-	src: url(fonts/moolboran.ttf);
+	src: url(/fonts/moolboran.ttf);
 }
 @font-face {
 	font-family: "gothic";
-	src: url(fonts/gothic.ttf);
+	src: url(/fonts/gothic.ttf);
 }
 body {
 	margin: 0;
@@ -62,7 +62,7 @@ p {
 }
 
 .backmain {
-	background: url(images/mainback.jpg);
+	background: url(/images/mainback.jpg);
 	height: 100vh;
 	background-size: cover;
     background-position: center center;
@@ -105,7 +105,7 @@ li>a:first-child {
 	padding: 25px 25px 25px 0px;
 }
 .logo {
-	background-image: url(images/logocg.png);
+	background-image: url(/images/logocg.png);
 	background-repeat: no-repeat;
 	float: left;
     width: 210px;
@@ -223,7 +223,7 @@ li>a:first-child {
     vertical-align: top;
 }
 .strsecblockim01 {
-	background-image: url(images/str01.jpg);
+	background-image: url(/images/str01.jpg);
 	background-repeat: no-repeat;
 	display: inline-block;
     width: 450px;
