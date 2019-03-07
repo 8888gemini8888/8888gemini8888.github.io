@@ -1,3 +1,15 @@
+@font-face {
+	font-family: "Futura_Book-Normal";
+	src: url(/fonts/Futura_Book-Normal.ttf);
+}
+@font-face {
+	font-family: "moolboran";
+	src: url(/fonts/moolboran.ttf);
+}
+@font-face {
+	font-family: "gothic";
+	src: url(/fonts/gothic.ttf);
+}
 
 body {
 	margin: 0;
@@ -217,16 +229,4 @@ li>a:first-child {
 	display: inline-block;
     width: 450px;
     height: 256px;
-}
-@font-face {
-	font-family: "Futura_Book-Normal";
-	src: url(/fonts/Futura_Book-Normal.ttf);
-}
-@font-face {
-	font-family: "moolboran";
-	src: url(/fonts/moolboran.ttf);
-}
-@font-face {
-	font-family: "gothic";
-	src: url(/fonts/gothic.ttf);
 }
