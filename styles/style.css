@@ -238,3 +238,11 @@ li>a:first-child {
     width: 450px;
     height: 256px;
 }
+.strpriceblock {
+	background-image: url(/images/strpriceblock.png);
+	background-repeat: no-repeat;	
+}
+.strpriceblockprice {
+	font-size: 5em;
+	color: #001298
+}
