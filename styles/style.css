@@ -247,11 +247,16 @@ li>a:first-child {
 	margin-top: -140px;
 }
 .strpriceblock {
-width: 50%;
+    width: 53%;
     text-align: left;
     line-height: 25px;
     font-size: 1em;
-    display: inline-block
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+.strpricesm {
+    font-size: 2em;
 }
 .strpriceblockprice {
 	font-size: 5em;
