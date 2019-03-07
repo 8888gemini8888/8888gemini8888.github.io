@@ -128,7 +128,7 @@ li>a:first-child {
 	max-width: 630px;
 }
 .strblock {
-	font-size: 4.5em;
+	font-size: 4em;
     color: #000;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -138,7 +138,7 @@ li>a:first-child {
 }
 
 .pricemain {
-	font-size: 1.7em;
+	font-size: 1.3em;
 	color: #000;
 	margin-bottom: 50px;
 }
