@@ -244,6 +244,7 @@ li>a:first-child {
 	background-image: url(/images/strpriceblock.png);
 	background-repeat: no-repeat;
 	height: 100vh; 
+	margin-top: -140px;
 }
 .strpriceblock {
 width: 50%;
@@ -254,5 +255,6 @@ width: 50%;
 }
 .strpriceblockprice {
 	font-size: 5em;
-	color: #001298
+	color: #001298;
+	    display: inline-block;
 }
