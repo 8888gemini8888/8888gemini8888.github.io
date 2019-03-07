@@ -1,7 +1,9 @@
-@font-face {
+/*@font-face {
 	font-family: "Montserrat";
 	src: url(href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet");
-}
+}*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&subset=cyrillic,cyrillic-ext');
+
 @font-face {
 	font-family: "moolboran";
 	src: url(/fonts/moolboran.ttf);
