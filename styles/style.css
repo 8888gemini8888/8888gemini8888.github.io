@@ -53,12 +53,13 @@ a[href^="tel:"] {
 	letter-spacing: 2px;
   }
 h1 {
-	font-weight: 500;
-	color: #000;
-	text-transform: uppercase;
-	font-size: 2em;
-	text-align: center;
-	letter-spacing: 3px;
+font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
 }
 p {
 	margin: 0;
@@ -144,9 +145,9 @@ li>a:first-child {
 }
 
 .pricemainbig {
-	font-size: 2.2em;
-	color: #000;
-	font-family: "gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 2.7em;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
 }
 
 .moreinfo {
@@ -218,10 +219,10 @@ li>a:first-child {
 	width: 450px;
     text-align: left;
     line-height: 25px;
-    font-size: 1.3em;
+    font-size: 1em;
     display: inline-block;
     height: 300px;
-    margin-right: 10px;
+    margin-right: 32px;
     vertical-align: top;
 }
 .strsecblockim01 {
