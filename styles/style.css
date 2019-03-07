@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "FuturaBookNormal";
-	src: url(/fonts/FuturaBookNormal.ttf);
+	font-family: "Montserrat";
+	src: url(href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet");
 }
 @font-face {
 	font-family: "moolboran";
@@ -14,7 +14,7 @@
 body {
 	margin: 0;
 	/* display: block; */
-	font-family: "FuturaBookNormal", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 ul, menu, dir {
     display: block;
@@ -132,7 +132,7 @@ li>a:first-child {
     letter-spacing: 5px;
 	margin-bottom: 10px;
 	line-height: 85px;
-	font-family: "FuturaBookNormal";
+	font-family: "Montserrat";
 }
 
 .pricemain {
@@ -154,7 +154,7 @@ li>a:first-child {
     padding: 20px;
     border-radius: 50px;
     background-color: #3244cc;
-    font-family: "Futura_Book-Normal";
+    font-family: "Montserrat";
     letter-spacing: 3px;
     font-weight: 600;
     border: none;
@@ -163,7 +163,7 @@ li>a:first-child {
     text-shadow: none;
     text-rendering: inherit;
     box-sizing: unset;
-	font: 600 23px "Futura_Book-Normal";
+	font: 600 23px "Montserrat";
 	padding-left: 25px;
 	padding-right: 25px;
 }
