@@ -240,7 +240,8 @@ li>a:first-child {
 }
 .strpriceblock {
 	background-image: url(/images/strpriceblock.png);
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
+	height: 100vh; 
 }
 .strpriceblockprice {
 	font-size: 5em;
