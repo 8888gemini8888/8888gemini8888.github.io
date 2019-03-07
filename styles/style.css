@@ -232,3 +232,10 @@ li>a:first-child {
     width: 450px;
     height: 256px;
 }
+.strsecblockim02 {
+	background-image: url(/images/str02.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+    width: 450px;
+    height: 256px;
+}
