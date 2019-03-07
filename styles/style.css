@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "Futura_Book-Normal";
-	src: url(/fonts/Futura_Book-Normal.ttf);
+	font-family: "FuturaBookNormal";
+	src: url(/fonts/FuturaBookNormal.ttf);
 }
 @font-face {
 	font-family: "moolboran";
@@ -14,7 +14,7 @@
 body {
 	margin: 0;
 	/* display: block; */
-	font-family: "Futura_Book-Normal", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "FuturaBookNormal", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 ul, menu, dir {
     display: block;
@@ -132,7 +132,7 @@ li>a:first-child {
     letter-spacing: 5px;
 	margin-bottom: 10px;
 	line-height: 85px;
-	font-family: "Futura_Book-Normal", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "FuturaBookNormal", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .pricemain {
