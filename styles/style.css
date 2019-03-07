@@ -267,3 +267,6 @@ li>a:first-child {
 .strblockpaddt {
 	padding-top: 150px;
 }
+.txtunderline {
+	text-decoration: underline;
+}
