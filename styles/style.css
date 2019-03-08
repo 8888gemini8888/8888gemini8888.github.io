@@ -214,7 +214,12 @@ li>a:first-child {
 	padding-bottom: 50px;
 	margin: auto;
 }
-
+.strsectpr {
+	width: 940px;
+	max-width: 940px;
+	padding-bottom: 50px;
+	margin: auto;
+}
 .strsecblock {
 	width: 450px;
     text-align: left;
@@ -285,7 +290,6 @@ li>a:first-child {
 .remcontain {
 	width: 940px;
 	max-width: 940px;
-	padding-top: 30px;
 	padding-bottom: 50px;
 	margin: auto;
 }
