@@ -39,7 +39,6 @@ a[href^="tel:"] {
 	float: left;
 	margin-right: 80px;
 	font-family: "moolboran";
-	margin-top: -7px;
 	letter-spacing: 2px;
   }
   a[href^="mailto:"] {
@@ -47,9 +46,7 @@ a[href^="tel:"] {
 	font-weight: 500;
 	font-size: 2em;
 	float: left;
-	margin-right: 80px;
 	font-family: "moolboran";
-	margin-top: -7px;
 	letter-spacing: 2px;
   }
 h1 {
@@ -93,10 +90,7 @@ p {
 }
 .upcontacts {
 	color: #000;
-	font-weight: 500;
-	font-size: 2em;
-	float: left;
-	margin-right: 80px;
+	float: right;
 	font-family: "moolboran";
 	margin-top: -7px;
 	letter-spacing: 2px;
