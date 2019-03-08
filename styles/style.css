@@ -272,7 +272,7 @@ li>a:first-child {
 }
 
 .remontsect {
-	background-image: url(/images/remontback.jpg);
+	background: url(/images/remontback.jpg);
 	background-repeat: no-repeat;
 	height: 100vh; 
 	margin-top: -140px;
