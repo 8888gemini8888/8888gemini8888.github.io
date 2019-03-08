@@ -273,9 +273,11 @@ li>a:first-child {
 
 .remontsect {
 	background: url(/images/remontback.jpg);
-	background-repeat: no-repeat;
-	height: 100vh; 
-	margin-top: -140px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -225px;
+    z-index: 1;
+    position: relative;
 }
 
 .remcontain {
@@ -290,4 +292,8 @@ li>a:first-child {
 	box-sizing: border-box;
 	display: inline-block;
 	float: left;
+}
+
+.remheader {
+	padding-top: 135px;
 }
