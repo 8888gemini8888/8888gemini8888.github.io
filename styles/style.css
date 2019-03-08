@@ -291,6 +291,7 @@ p {
 	max-width: 940px;
 	padding-bottom: 50px;
 	margin: auto;
+	line-height: 24px;
 }
 .remblock {
 	width: 47%;
