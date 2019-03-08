@@ -277,7 +277,7 @@ li>a:first-child {
 	background: url(/images/remontback.jpg);
     background-repeat: no-repeat;
     height: 100vh;
-    margin-top: -225px;
+    margin-top: -230px;
     z-index: 1;
     position: relative;
 }
@@ -297,5 +297,5 @@ li>a:first-child {
 }
 
 .remheader {
-	padding-top: 135px;
+	padding-top: 145px;
 }
