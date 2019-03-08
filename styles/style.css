@@ -270,3 +270,24 @@ li>a:first-child {
 .txtunderline {
 	text-decoration: underline;
 }
+
+.remontsect {
+	background-image: url(/images/remontback.jpg);
+	background-repeat: no-repeat;
+	height: 100vh; 
+	margin-top: -140px;
+}
+
+.remcontain {
+	width: 940px;
+	max-width: 940px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	margin: auto;
+}
+.remblock {
+	width: 31%;
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+}
