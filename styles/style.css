@@ -83,6 +83,7 @@ p {
     margin-right: 200px;
 	display: inline-block;
 	float: left;
+	margin: 0px 20px 20px 0px;
 }
 .upmenuitem {
 	display: inline-block;
@@ -114,7 +115,7 @@ li>a:first-child {
 	float: left;
     width: 210px;
     height: 26px;
-    margin-right: 50px
+	margin: 0px 50px 20px 0px;
 }
 
 .topbar {
