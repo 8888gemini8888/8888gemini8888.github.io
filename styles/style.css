@@ -192,15 +192,14 @@ p {
 }
 
 .fblockfirm {
-	color: #A8B2FF;
-	padding: 10px 30px 10px 10px;
+	color: #fff;
+	padding: 10px 30px 20px 0px;
 	float: left;
 	font-size: 1em;
 	line-height: 30px;
 }
 .fblocksmall {
 	color: #fff;
-	width: 22%;
 	padding: 10px;
 	float: left;
 	font-size: 1.3em;
@@ -307,9 +306,19 @@ p {
 .fblockcontacts {
 	width: 30%;
 	margin: 20px;
+	float: left;
 }
 .fblocksmall {
 	width: 30%;
 	margin: 20px;
 }
 
+.footercontacts {
+	color: #fff;
+    font-weight: 500;
+    font-size: 2em;
+    float: left;
+    margin-right: 80px;
+    font-family: "moolboran";
+    letter-spacing: 2px;
+}
