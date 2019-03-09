@@ -179,7 +179,7 @@ p {
 	margin-top: 3px;
 }
 .footer {
-	min-height: 300px;
+	min-height: 350px;
 	background-color: #01072E;
 	width: 100%;
 }
@@ -187,7 +187,7 @@ p {
 .fblock {
 	width: 940px;
 	max-width: 1150px;
-    padding-top: 50px;
+    padding-top: 25px;
 	margin: auto;
 }
 
@@ -202,7 +202,7 @@ p {
 	color: #fff;
 	padding: 10px;
 	float: left;
-	font-size: 1.3em;
+	font-size: 0.85	em;
 }
 .strsect {
 	width: 940px;
@@ -304,24 +304,15 @@ p {
 	padding-top: 165px;
 }
 .fblockcontacts {
-	width: 30%;
+	width: 40%;
 	margin: 20px;
 	float: left;
 }
 .fblocksmall {
-	width: 30%;
+	width: 20%;
 	margin: 20px;
 }
 
-.footercontacts {
-	color: #fff;
-    font-weight: 500;
-    font-size: 2em;
-    float: left;
-    margin-right: 80px;
-    font-family: "moolboran";
-    letter-spacing: 2px;
-}
 div>a[href^="tel:"] {
     color: #fff;
     font-weight: 500;
@@ -330,6 +321,7 @@ div>a[href^="tel:"] {
     margin-right: 80px;
     font-family: "moolboran";
 	letter-spacing: 2px;
+	margin-bottom: 5px;
 }
 
 div>a[href^="mailto:"] {
@@ -339,4 +331,5 @@ div>a[href^="mailto:"] {
     float: left;
     font-family: "moolboran";
 	letter-spacing: 2px;
+	margin-bottom: 5px;
 }
