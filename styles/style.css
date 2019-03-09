@@ -322,3 +322,21 @@ p {
     font-family: "moolboran";
     letter-spacing: 2px;
 }
+div>a[href^="tel:"] {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2em;
+    float: left;
+    margin-right: 80px;
+    font-family: "moolboran";
+	letter-spacing: 2px;
+}
+
+div>a[href^="mailto:"] {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2em;
+    float: left;
+    font-family: "moolboran";
+	letter-spacing: 2px;
+}
