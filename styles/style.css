@@ -284,6 +284,7 @@ p {
     margin-top: -230px;
     z-index: 1;
     position: relative;
+	margin-bottom: -155px;
 }
 
 .remcontain {
