@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /images/
+Disallow: /fonts/
+Disallow: /styles/
+Disallow: /js/
+
+
+User-agent: Yandex
+Disallow: /images/
+Disallow: /fonts/
+Disallow: /styles/
+Disallow: /js/
+
+Host: www.skmne.com
+Sitemap: http://www.skmne.com/sitemap.xml
