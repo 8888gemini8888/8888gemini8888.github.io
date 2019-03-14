@@ -30,6 +30,11 @@
 		margin-inline-end: 0px;
 		padding-inline-start: 0px;
 	}
+	a {
+		color: #fff;
+		cursor: pointer;
+		text-decoration: none;
+	}
 	a:-webkit-any-link {
 		color: #fff;
 		cursor: pointer;
