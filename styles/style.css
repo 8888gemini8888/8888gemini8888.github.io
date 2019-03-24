@@ -250,7 +250,7 @@
 	.strpricesec {
 		background-image: url(/images/strpriceblock.png);
 		background-repeat: no-repeat;
-		height: 100vh; 
+		height: 940px;
 		margin-top: -140px;
 		z-index: 10;
 		position: relative;
@@ -283,11 +283,11 @@
 	.remontsect {
 		background: url(/images/remback.jpg);
 		background-repeat: no-repeat;
-		height: 100vh;
 		margin-top: -230px;
 		z-index: 1;
 		position: relative;
-		margin-bottom: -155px;
+		/*margin-bottom: -155px;
+		height: 100vh;*/
 	}
 
 	.remcontain {
