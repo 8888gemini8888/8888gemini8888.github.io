@@ -74,8 +74,9 @@
 	.backmain {
 		background: url(/images/mainback.jpg);
 		height: 955px;
-		background-size: cover;
-		background-position: center center;
+    		background-size: contain;
+		background-position: bottom;
+		background-repeat: no-repeat;
 	}
 
 	.talignc {
@@ -351,12 +352,13 @@
 		display: inline-block;
 	}
 
-	@media screen and (max-width: 1365px) {
+	@media screen and (max-width: 1366px) {
 		.maintext {
 			padding-left: 120px;
 		}
 		p>a[href^="tel:"] {
 			margin-right: 55px;
 		}
+
 
 	} 
