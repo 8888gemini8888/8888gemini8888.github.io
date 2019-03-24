@@ -1,7 +1,3 @@
-	/*@font-face {
-		font-family: "Montserrat";
-		src: url(href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet");
-	}*/
 	@import url('https://fonts.googleapis.com/css?family=Montserrat&subset=cyrillic,cyrillic-ext');
 
 	@font-face {
@@ -11,6 +7,10 @@
 	@font-face {
 		font-family: "gothic";
 		src: url(/fonts/gothic.ttf);
+	}
+	.wd {
+		max-width: 1920px;
+		min-width: 960px;
 	}
 	li {
 		display: inline-block;
@@ -73,7 +73,7 @@
 
 	.backmain {
 		background: url(/images/mainback.jpg);
-		height: 100vh;
+		height: 955px;
 		background-size: cover;
 		background-position: center center;
 	}
@@ -350,3 +350,13 @@
 	.contdisp {
 		display: inline-block;
 	}
+
+	@media screen (max-width: 1365px) {
+		.maintext {
+			padding-left: 120px;
+		}
+		p>a[href^="tel:"] {
+			margin-right: 55px;
+		}
+
+	} 
