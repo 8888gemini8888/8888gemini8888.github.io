@@ -251,7 +251,7 @@
 	.strpricesec {
 		background-image: url(/images/strpriceblock.png);
 		background-repeat: no-repeat;
-		margin-top: -140px;
+		/*margin-top: -140px;*/
 		z-index: 10;
 		position: relative;
 	}
@@ -274,7 +274,7 @@
 		vertical-align: middle;
 	}
 	.strblockpaddt {
-		padding-top: 170px;
+		/*padding-top: 170px;*/
 	}
 	.txtunderline {
 		text-decoration: underline;
@@ -283,7 +283,7 @@
 	.remontsect {
 		background: url(/images/remback.jpg);
 		background-repeat: no-repeat;
-		margin-top: -230px;
+		/*margin-top: -230px;*/
 		z-index: 1;
 		position: relative;
 		background-position: center center;
@@ -415,6 +415,7 @@
 	@media screen and (max-width: 375px) {
 		.wd {
 			max-width: 375px;
+			min-width: 320px;
 		}
 		.backmain {
 			height: 600px;
@@ -437,6 +438,7 @@
 		}
 		.moreinfo {
 			font-size: 0.8em;
+			padding: 10px;
 		}
 		.mainmenu {
 			display: none;
@@ -490,6 +492,7 @@
 		}
 		.remcontain {
 			padding: 15px;
+			font-size: 1.2em;
 		}
 		.remblock {
 			width: 100%;
@@ -507,6 +510,10 @@
 		}
 		div>a[href^="mailto:"] {
 			font-size: 2.5em;
+		}
+		.fblocksmall {
+			width: 100%;
+			margin: 0;
 		}
 	} 
 	@media screen and (min-width: 320px) and (max-width: 360px) {
