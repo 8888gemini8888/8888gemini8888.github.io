@@ -74,11 +74,14 @@
 	.backmain {
 		background: url(/images/mainback.jpg);
 		height: 955px;
-    		background-size: contain;
+    	background-size: contain;
 		background-position: bottom;
 		background-repeat: no-repeat;
 	}
-
+	.center {
+		margin: auto;
+		text-align: center;
+	}
 	.talignc {
 		text-align: center;
 	}
@@ -191,9 +194,8 @@
 	}
 
 	.fblock {
-		width: 940px;
 		max-width: 1150px;
-		padding-top: 25px;
+		padding: 25px;
 		margin: auto;
 	}
 
@@ -218,10 +220,9 @@
 		margin: auto;
 	}
 	.strsectpr {
-		width: 940px;
 		max-width: 940px;
-		padding-bottom: 50px;
 		margin: auto;
+		padding: 0px 20px;
 	}
 	.strsecblock {
 		width: 450px;
@@ -257,7 +258,7 @@
 		position: relative;
 	}
 	.strpriceblock {
-		width: 53%;
+		width: 60%;
 		text-align: left;
 		line-height: 30px;
 		font-size: 1em;
@@ -287,12 +288,11 @@
 		margin-top: -230px;
 		z-index: 1;
 		position: relative;
-		/*margin-bottom: -155px;
-		height: 100vh;*/
+		background-position: center center;
+		padding: 0px 20px;
 	}
 
 	.remcontain {
-		width: 940px;
 		max-width: 940px;
 		padding-bottom: 50px;
 		margin: auto;
@@ -353,12 +353,109 @@
 	}
 
 	@media screen and (max-width: 1366px) {
+		body {
+			max-width: 1366px;
+		}
 		.maintext {
 			padding-left: 120px;
 		}
 		p>a[href^="tel:"] {
 			margin-right: 55px;
 		}
+		.topbar {
+			min-width: 320px;
+		}
 
+	} 
+
+	@media screen and (max-width: 719px) {
+		body {
+			max-width: 719px;
+		}
+		li {
+			line-height: 36px;
+			display: block;
+			margin: 10px 0px;
+		}
+		.maintext {
+			padding-left: 50px;
+		}
+		p>a[href^="tel:"] {
+			margin-right: 55px;
+		}
+		.topbar {
+			min-width: 320px;
+		}
+		.strsecblock {
+			width: 97%;
+			text-align: left;
+			line-height: 30px;
+			font-size: 1.7em;
+			display: block;
+			height: 300px;
+			margin: auto;
+			padding: 15px;
+		}
+		.strpriceblock {
+			line-height: 40px;
+			font-size: 1.5em;
+		}
+		.strsecblockim01 {
+			background-repeat: no-repeat;
+			display: inline-block;
+			width: 43%;
+			height: 253px;
+			margin: 15px;
+			min-width: 300px;
+		}
+		.strsecblockim02 {
+			background-repeat: no-repeat;
+			display: inline-block;
+			width: 43%;
+			height: 253px;
+			margin: 15px;
+			min-width: 300px;
+		}
+		.remcontain {
+			line-height: 40px;
+			font-size: 1.5em;
+		}
+		.remblock {
+			width: 97%;
+			display: block;
+			margin: 0px 10px 0px 10px;
+		}
+		div>a[href^="tel:"] {
+			font-size: 3em;
+		}
+		div>a[href^="mailto:"] {
+			font-size: 3em;
+		}
+	} 
+	@media screen and (max-width: 375px) {
+		body {
+			max-width: 375px;
+		}
+		.maintext {
+			padding-left: 120px;
+		}
+		p>a[href^="tel:"] {
+			margin-right: 55px;
+		}
+		.topbar {
+			min-width: 320px;
+		}
+
+	} 
+	@media screen and (min-width: 320px) and (max-width: 360px) {
+		.maintext {
+			padding-left: 120px;
+		}
+		p>a[href^="tel:"] {
+			margin-right: 55px;
+		}
+		.topbar {
+			min-width: 320px;
+		}
 
 	} 
