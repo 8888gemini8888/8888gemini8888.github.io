@@ -452,7 +452,6 @@
 		.strsect {
 			width: 100%;
 			max-width: 375px;
-			padding: 30px 20px;
 			box-sizing: border-box;
 		}
 		.strsecblock {
@@ -461,7 +460,7 @@
 			font-size: 1.2em;
 			display: block;
 			margin: auto;
-			padding: 0;
+			padding: 15px;
 		}
 		.strsecblockim01 {
 			background-repeat: no-repeat;
@@ -470,7 +469,6 @@
 			height: 235px;
 			margin: 0;
 			min-width: 300px;
-			padding: 0;
 		}
 		.strsecblockim02 {
 			background-repeat: no-repeat;
@@ -480,7 +478,6 @@
 			height: 235px;
 			margin: 0;
 			min-width: 300px;
-			padding: 0;
 		}
 		.strpriceblock {
 			line-height: 40px;
@@ -518,13 +515,17 @@
 	} 
 	@media screen and (min-width: 320px) and (max-width: 360px) {
 		.maintext {
-			padding-left: 120px;
+			padding: 65px 20px 20px 20px;
 		}
-		p>a[href^="tel:"] {
-			margin-right: 55px;
+		.backmain {
+			height: 480px;
 		}
-		.topbar {
-			min-width: 320px;
+		.strblock {
+			font-size: 1.4em;
+			line-height: 30px;
+		}
+		.pricemain {
+			margin-bottom: 25px;
 		}
 
 	} 
