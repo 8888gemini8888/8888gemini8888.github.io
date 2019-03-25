@@ -66,6 +66,7 @@
 		text-align: center;
 		letter-spacing: 3px;
 		margin-bottom: 40px;
+		margin-block-start: 0;
 	}
 	p {
 		margin: 0;
@@ -216,7 +217,6 @@
 		width: 940px;
 		max-width: 940px;
 		padding-top: 30px;
-		padding-bottom: 50px;
 		margin: auto;
 	}
 	.strsectpr {
@@ -270,7 +270,7 @@
 		vertical-align: middle;
 	}
 	.strblockpaddt {
-		/*padding-top: 170px;*/
+		padding-top: 30px;
 	}
 	.txtunderline {
 		text-decoration: underline;
@@ -294,9 +294,10 @@
 	.ylwanglebottom {
 		background: url(/images/ylwanglebottom.png);
 		background-repeat: no-repeat;
-		position: relative;
+		position: absolute;
 		height: 166px;
 		width: 100%;
+		z-index: 20;
 	}
 	.remcontain {
 		max-width: 940px;
