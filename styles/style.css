@@ -288,11 +288,15 @@
 		background: url(/images/ylwangleup.png);
 		background-repeat: no-repeat;
 		position: relative;
+		height: 166px;
+		width: 100%;
 	}
 	.ylwanglebottom {
 		background: url(/images/ylwanglebottom.png);
 		background-repeat: no-repeat;
 		position: relative;
+		height: 166px;
+		width: 100%;
 	}
 	.remcontain {
 		max-width: 940px;
