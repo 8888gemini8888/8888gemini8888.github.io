@@ -230,7 +230,6 @@
 		line-height: 25px;
 		font-size: 1em;
 		display: inline-block;
-		height: 300px;
 		vertical-align: top;
 	}
 	.strsecblockim01 {
@@ -252,7 +251,6 @@
 	.strpricesec {
 		background-image: url(/images/strpriceblock.png);
 		background-repeat: no-repeat;
-		height: 940px;
 		margin-top: -140px;
 		z-index: 10;
 		position: relative;
@@ -289,7 +287,6 @@
 		z-index: 1;
 		position: relative;
 		background-position: center center;
-		padding: 0px 20px;
 	}
 
 	.remcontain {
@@ -353,7 +350,7 @@
 	}
 
 	@media screen and (max-width: 1366px) {
-		body {
+		.wd {
 			max-width: 1366px;
 		}
 		.maintext {
@@ -369,7 +366,7 @@
 	} 
 
 	@media screen and (max-width: 719px) {
-		body {
+		.wd {
 			max-width: 719px;
 		}
 		li {
@@ -387,35 +384,18 @@
 			min-width: 320px;
 		}
 		.strsecblock {
-			width: 97%;
-			text-align: left;
+			width: 100%;
 			line-height: 30px;
-			font-size: 1.7em;
-			display: block;
-			height: 300px;
+			font-size: 1.2em;
 			margin: auto;
 			padding: 15px;
+			box-sizing: border-box;
 		}
 		.strpriceblock {
 			line-height: 40px;
 			font-size: 1.5em;
 		}
-		.strsecblockim01 {
-			background-repeat: no-repeat;
-			display: inline-block;
-			width: 43%;
-			height: 253px;
-			margin: 15px;
-			min-width: 300px;
-		}
-		.strsecblockim02 {
-			background-repeat: no-repeat;
-			display: inline-block;
-			width: 43%;
-			height: 253px;
-			margin: 15px;
-			min-width: 300px;
-		}
+
 		.remcontain {
 			line-height: 40px;
 			font-size: 1.5em;
@@ -433,11 +413,14 @@
 		}
 	} 
 	@media screen and (max-width: 375px) {
-		body {
+		.wd {
 			max-width: 375px;
 		}
+		.backmain {
+			height: 600px;
+		}
 		.maintext {
-			padding-left: 120px;
+			padding: 85px 20px 20px 20px;
 		}
 		p>a[href^="tel:"] {
 			margin-right: 55px;
@@ -445,7 +428,86 @@
 		.topbar {
 			min-width: 320px;
 		}
-
+		.strblock {
+			font-size: 1.8em;
+			line-height: 45px;
+		}
+		.pricemain {
+			font-size: 1em;
+		}
+		.moreinfo {
+			font-size: 0.8em;
+		}
+		.mainmenu {
+			display: none;
+		}
+		.logo {
+			display: none;
+		}
+		.upcontacts {
+			display: none;
+		}
+		.strsect {
+			width: 100%;
+			max-width: 375px;
+			padding: 30px 20px;
+			box-sizing: border-box;
+		}
+		.strsecblock {
+			width: 100%;
+			line-height: 30px;
+			font-size: 1.2em;
+			display: block;
+			margin: auto;
+			padding: 0;
+		}
+		.strsecblockim01 {
+			background-repeat: no-repeat;
+			display: inline-block;
+			width: 100%;
+			height: 235px;
+			margin: 0;
+			min-width: 300px;
+			padding: 0;
+		}
+		.strsecblockim02 {
+			background-repeat: no-repeat;
+			background-repeat: no-repeat;
+			display: inline-block;
+			width: 100%;
+			height: 235px;
+			margin: 0;
+			min-width: 300px;
+			padding: 0;
+		}
+		.strpriceblock {
+			line-height: 40px;
+			font-size: 1.2em;
+			width: 100%;
+		}
+		.strpriceblockprice {
+			display: none;
+		}
+		.remcontain {
+			padding: 15px;
+		}
+		.remblock {
+			width: 100%;
+			display: block;
+			margin: 0px;
+		}
+		.fblockcontacts {
+			width: 100%;
+			margin: 0;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+		div>a[href^="tel:"] {
+			font-size: 2.5em;
+		}
+		div>a[href^="mailto:"] {
+			font-size: 2.5em;
+		}
 	} 
 	@media screen and (min-width: 320px) and (max-width: 360px) {
 		.maintext {
