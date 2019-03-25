@@ -249,11 +249,7 @@
 
 
 	.strpricesec {
-		background-image: url(/images/strpriceblock.png);
-		background-repeat: no-repeat;
-		/*margin-top: -140px;*/
-		z-index: 10;
-		position: relative;
+		background: #fff39b;
 	}
 	.strpriceblock {
 		width: 60%;
