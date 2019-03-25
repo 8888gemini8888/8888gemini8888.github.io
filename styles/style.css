@@ -428,6 +428,7 @@
 		}
 		.topbar {
 			min-width: 320px;
+			margin: 0;
 		}
 		.strblock {
 			font-size: 1.8em;
@@ -483,6 +484,7 @@
 			line-height: 40px;
 			font-size: 1.2em;
 			width: 100%;
+			margin: 0;
 		}
 		.strpriceblockprice {
 			display: none;
