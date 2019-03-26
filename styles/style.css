@@ -70,6 +70,10 @@
 	}
 	p {
 		margin: 0;
+		margin-block-start: 0px;
+		margin-block-end: 0px;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
 	}
 
 	.backmain {
@@ -320,7 +324,7 @@
 		vertical-align: top;
 	}
 	.fblockcontacts {
-		width: 40%;
+		width: 32%;
 		margin: 20px;
 		float: left;
 	}
@@ -433,9 +437,9 @@
 			padding: 0px 20px;
 		}
 	} 
-	@media screen and (max-width: 375px) {
+	@media screen and (max-width: 414px) {
 		.wd {
-			max-width: 375px;
+			max-width: 414px;
 			min-width: 320px;
 		}
 		.backmain {
@@ -473,7 +477,7 @@
 		}
 		.strsect {
 			width: 100%;
-			max-width: 375px;
+			max-width: 414px;
 			box-sizing: border-box;
 		}
 		.strsecblock {
