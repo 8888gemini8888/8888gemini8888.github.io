@@ -371,6 +371,7 @@
 	@media screen and (max-width: 1366px) {
 		.wd {
 			max-width: 1366px;
+			min-width: 1024px;
 		}
 		.maintext {
 			padding-left: 120px;
@@ -383,15 +384,26 @@
 		}
 
 	} 
+	@media screen and (max-width: 1024px) and (orientation: portrait) {
+		.wd {
+			max-width: 1024px;
+			min-width: 720px;
+		}
+
+	}
 
 	@media screen and (max-width: 719px) {
 		.wd {
 			max-width: 719px;
+			min-width: 415px;
 		}
 		li {
 			line-height: 36px;
 			display: block;
 			margin: 10px 0px;
+		}
+		.mainmenu {
+			display: none;
 		}
 		.maintext {
 			padding-left: 50px;
@@ -401,6 +413,17 @@
 		}
 		.topbar {
 			min-width: 320px;
+			margin-left: 50px;
+			margin-right: 20px;
+		}
+		.logo {
+			width: 160px;
+			height: 20px;
+			margin-right: 20px;
+			background-size: cover;
+		}
+		.strblock {
+			font-size: 2.7em;
 		}
 		.strsecblock {
 			width: 100%;
@@ -413,11 +436,15 @@
 		.strpriceblock {
 			line-height: 40px;
 			font-size: 1.5em;
+			widows: 100%;
 		}
-
+		.strpriceblockprice {
+			display: none;
+		}
 		.remcontain {
 			line-height: 40px;
 			font-size: 1.5em;
+			padding: 20px;
 		}
 		.remblock {
 			width: 97%;
@@ -426,15 +453,28 @@
 		}
 		div>a[href^="tel:"] {
 			font-size: 3em;
+			margin-right: 70px;
 		}
 		div>a[href^="mailto:"] {
 			font-size: 3em;
+			margin-right: 90px;
 		}
 		.strblockpaddt {
 			padding-top: 70px;
 		}
 		.strsectpr {
 			padding: 0px 20px;
+		}
+		.moreinfo {
+			font-size: 1.5em;
+			padding: 15px;
+		}
+		.fblockcontacts {
+			width: 90%;
+		}
+		.fblocksmall {
+			width: 39%;
+			margin: 0px 20px;
 		}
 	} 
 	@media screen and (max-width: 414px) {
