@@ -130,11 +130,14 @@ p {
 }
 .logo {
 	background-image: url(/images/logoskcg.png);
-	background-repeat: no-repeat;
-	float: left;
-	width: 210px;
-	height: 26px;
-	margin-right: 60px;
+    background-repeat: no-repeat;
+    float: left;
+    width: 210px;
+    height: 30px;
+    margin-right: 10px;
+    background-size: contain;
+    padding-left: 35px;
+    font-size: 0.9em;
 }
 
 .topbar {
