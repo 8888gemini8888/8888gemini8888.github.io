@@ -1,618 +1,618 @@
-	@import url('https://fonts.googleapis.com/css?family=Montserrat&subset=cyrillic,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&subset=cyrillic,cyrillic-ext');
 
-	@font-face {
-		font-family: "moolboran";
-		src: url(/fonts/moolboran.ttf);
-	}
-	@font-face {
-		font-family: "gothic";
-		src: url(/fonts/gothic.ttf);
-	}
-	.wd {
-		max-width: 1920px;
-		min-width: 960px;
-	}
-	li {
-		display: inline-block;
-		margin: 5px 0px 5px 0px;
-		line-height: 24px;
-	}
-	body {
-		margin: 0;
-		/* display: block; */
-		font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	}
-	ul, menu, dir {
-		display: block;
-		margin-block-start: 0px;
-		margin-block-end: 0px;
-		margin-inline-start: 0px;
-		margin-inline-end: 0px;
-		padding-inline-start: 0px;
-	}
-	a {
-		color: #fff;
-		cursor: pointer;
-		text-decoration: none;
-	}
-	a:-webkit-any-link {
-		color: #fff;
-		cursor: pointer;
-		text-decoration: none;
-	}
+@font-face {
+	font-family: "moolboran";
+	src: url(/fonts/moolboran.ttf);
+}
+@font-face {
+	font-family: "gothic";
+	src: url(/fonts/gothic.ttf);
+}
+.wd {
+	max-width: 1920px;
+	min-width: 960px;
+}
+li {
+	display: inline-block;
+	margin: 5px 0px 5px 0px;
+	line-height: 24px;
+}
+body {
+	margin: 0;
+	/* display: block; */
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ul, menu, dir {
+	display: block;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 0px;
+}
+a {
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+a:-webkit-any-link {
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
 
-	p>a[href^="tel:"] {
-		color: #000;
-		font-weight: 500;
-		font-size: 2em;
-		float: left;
-		margin-right: 80px;
-		font-family: "moolboran";
-		letter-spacing: 2px;
-	}
-	p>a[href^="mailto:"] {
-		color: #000;
-		font-weight: 500;
-		font-size: 2em;
-		float: left;
-		font-family: "moolboran";
-		letter-spacing: 2px;
-	}
-	h1 {
+p>a[href^="tel:"] {
+	color: #000;
 	font-weight: 500;
-		color: #000;
-		text-transform: uppercase;
-		font-size: 1.7em;
-		text-align: center;
-		letter-spacing: 3px;
-		margin-bottom: 40px;
-		margin-block-start: 0;
-	}
-	p {
-		margin: 0;
-		margin-block-start: 0px;
-		margin-block-end: 0px;
-		margin-inline-start: 0px;
-		margin-inline-end: 0px;
-	}
+	font-size: 2em;
+	float: left;
+	margin-right: 80px;
+	font-family: "moolboran";
+	letter-spacing: 2px;
+}
+p>a[href^="mailto:"] {
+	color: #000;
+	font-weight: 500;
+	font-size: 2em;
+	float: left;
+	font-family: "moolboran";
+	letter-spacing: 2px;
+}
+h1, h2, h3 {
+font-weight: 500;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 1.7em;
+	text-align: center;
+	letter-spacing: 3px;
+	margin-bottom: 40px;
+	margin-block-start: 0;
+}
+p {
+	margin: 0;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
 
-	.backmain {
-		background: url(/images/mainback.jpg);
-		height: 955px;
-    	background-size: contain;
-		background-position: bottom;
-		background-repeat: no-repeat;
-	}
-	.center {
-		margin: auto;
-		text-align: center;
-		max-width: 1000px;
-		padding: 0px 15px;
-		box-sizing: border-box;
-		margin-bottom: 20px;
-	}
-	.talignc {
-		text-align: center;
-	}
+.backmain {
+	background: url(/images/mainback.jpg);
+	height: 955px;
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.center {
+	margin: auto;
+	text-align: center;
+	max-width: 1000px;
+	padding: 0px 15px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.talignc {
+	text-align: center;
+}
 
-	.mainmenu {
-		/*padding-bottom: 7px;
-		border-bottom: 3px solid #3244cc;
-		margin-right: 200px;
-		margin: 0px 20px 20px 0px;*/
-		margin-right: 80px;
-		max-width: 640px;
+.mainmenu {
+	/*padding-bottom: 7px;
+	border-bottom: 3px solid #3244cc;
+	margin-right: 200px;
+	margin: 0px 20px 20px 0px;*/
+	margin-right: 80px;
+	max-width: 640px;
+	display: inline-block;
+	float: left;
+}
+.upmenuitem {
+	display: inline-block;
+	color: #000;
+	font-weight: 600;
+	font-size: 0.9em;
+	margin: 5px 25px;
+}
+.upcontacts {
+	color: #000;
+	float: right;
+	font-family: "moolboran";
+	margin-top: -7px;
+	letter-spacing: 2px;
+}
+.mainmenu>ul>li>a {
+	text-decoration: none;
+	color: #000;
+}
+.mainmenu>ul>li>a:hover {
+	color: #0019D5;
+	transition: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.logo {
+	background-image: url(/images/logoskcg.png);
+	background-repeat: no-repeat;
+	float: left;
+	width: 210px;
+	height: 26px;
+	margin-right: 60px;
+}
+
+.topbar {
+	min-width: 940px;
+	padding-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.maintext {
+	padding-left: 320px;
+	padding-top: 185px;
+	max-width: 630px;
+}
+.strblock {
+	font-size: 4em;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+	line-height: 85px;
+	font-family: "Montserrat";
+}
+
+.pricemain {
+	font-size: 1.3em;
+	color: #000;
+	margin-bottom: 50px;
+}
+
+.pricemainbig {
+	font-size: 2.7em;
+	color: #000;
+	font-family: "Montserrat", sans-serif;
+}
+
+.moreinfo {
+	color: #fff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	padding: 20px;
+	border-radius: 50px;
+	background-color: #3244cc;
+	letter-spacing: 3px;
+	border: none;
+	cursor: pointer;
+	align-items: center;
+	text-shadow: none;
+	text-rendering: inherit;
+	box-sizing: unset;
+	font: 500 1.2em "Montserrat";
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.moreinfo:hover {
+	box-shadow: 0px 6px 5px 3px #fff;
+	transition: 0.3s;
+	transition-timing-function: ease-in-out;
+	background-color: #0019D5;
+}
+
+.moreinfo:active {
+	margin-top: 3px;
+}
+.footer {
+	min-height: 330px;
+	background-color: #01072E;
+	width: 100%;
+}
+
+.fblock {
+	max-width: 1150px;
+	padding: 25px;
+	margin: auto;
+}
+
+.fblockfirm {
+	color: #fff;
+	padding: 10px 30px 20px 0px;
+	float: left;
+	font-size: 1em;
+	line-height: 30px;
+}
+.fblocksmall {
+	color: #fff;
+	padding: 10px;
+	float: left;
+	font-size: 0.85	em;
+}
+.strsect {
+	width: 100%;
+	padding-top: 30px;
+	margin: auto;
+}
+.strsectpr {
+	max-width: 940px;
+	margin: auto;
+	padding: 0px 20px;
+}
+.strsecblock {
+	width: 450px;
+	text-align: left;
+	line-height: 25px;
+	font-size: 1em;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0px 10px;
+}
+.strsecblockim01 {
+	background-image: url(/images/str01.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 450px;
+	height: 256px;
+}
+.strsecblockim02 {
+	background-image: url(/images/str02.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 450px;
+	height: 256px;
+}
+
+
+.strpricesec {
+	background: #fff39b;
+}
+.strpriceblock {
+	width: 60%;
+	text-align: left;
+	line-height: 30px;
+	font-size: 1em;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 50px;
+}
+.strpricesm {
+	font-size: 0.3em;
+}
+.strpriceblockprice {
+	font-size: 5em;
+	color: #001298;
 		display: inline-block;
-		float: left;
-	}
-	.upmenuitem {
-		display: inline-block;
-		color: #000;
-		font-weight: 600;
-		font-size: 0.9em;
-		margin: 5px 25px;
-	}
-	.upcontacts {
-		color: #000;
-		float: right;
-		font-family: "moolboran";
-		margin-top: -7px;
-		letter-spacing: 2px;
-	}
-	.mainmenu>ul>li>a {
-		text-decoration: none;
-		color: #000;
-	}
-	.mainmenu>ul>li>a:hover {
-		color: #0019D5;
-		transition: 0.3s;
-    	transition-timing-function: ease-in-out;
-	}
-	.logo {
-		background-image: url(/images/logocg.png);
-		background-repeat: no-repeat;
-		float: left;
-		width: 210px;
-		height: 26px;
-		margin-right: 60px;
-	}
+	vertical-align: middle;
+}
+.strblockpaddt {
+	padding-top: 30px;
+}
+.txtunderline {
+	text-decoration: underline;
+}
 
-	.topbar {
-		min-width: 940px;
-		padding-top: 50px;
-		margin-left: 50px;
-		margin-right: 50px;
+.remontsect {
+	background: url(/images/remback.jpg);
+	background-repeat: no-repeat;
+	/*margin-top: -230px;*/
+	z-index: 1;
+	position: relative;
+	background-position: center center;
+}
+.ylwangleup {
+	background: url(/images/ylwangleup.png);
+	background-repeat: no-repeat;
+	position: relative;
+	height: 166px;
+	width: 100%;
+}
+.ylwanglebottom {
+	background: url(/images/ylwanglebottom.png);
+	background-repeat: no-repeat;
+	position: relative;
+	height: 166px;
+	width: 100%;
+	z-index: 20;
+}
+.remcontain {
+	max-width: 940px;
+	padding-bottom: 50px;
+	margin: auto;
+	line-height: 30px;
+}
+.remblock {
+	width: 47%;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+	vertical-align: top;
+}
+.fblockcontacts {
+	width: 32%;
+	margin: 20px;
+	float: left;
+}
+.fblocksmall {
+	width: 20%;
+	margin: 20px;
+}
+
+div>a[href^="tel:"] {
+	color: #fff;
+	font-weight: 500;
+	font-size: 2em;
+	float: left;
+	margin-right: 10px;
+	font-family: "moolboran";
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+}
+
+div>a[href^="mailto:"] {
+	color: #fff;
+	font-weight: 500;
+	font-size: 2em;
+	float: left;
+	font-family: "moolboran";
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+.copyrights {
+	display: inline-block;
+	color: #fff;
+	font-size: 0.75em;
+	width: 90%;
+	max-width: 90%;
+	padding: 20px 10px 10px 10px;
+}
+.contdisp {
+	display: inline-block;
+	padding: 0px 5px;
+}
+
+@media screen and (max-width: 1366px) {
+	.wd {
+		max-width: 1366px;
+		min-width: 1024px;
 	}
 	.maintext {
-		padding-left: 320px;
-		padding-top: 185px;
-		max-width: 630px;
+		padding-left: 120px;
+	}
+	p>a[href^="tel:"] {
+		margin-right: 55px;
+	}
+	.topbar {
+		min-width: 320px;
+	}
+
+} 
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+	.wd {
+		max-width: 1024px;
+		min-width: 720px;
+	}
+	div>a[href^="tel:"] {
+		font-size: 2em;
+	}
+	div>a[href^="mailto:"] {
+		font-size: 2em;
+	}
+	.remcontain {
+		padding: 20px;
+		max-width: 680px;
+	}
+	.strsectpr {
+		max-width: 680px;
+	}
+	.fblockcontacts {
+		width: 40%;
+		margin: 0;		
+	}
+	li {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 719px) {
+	.wd {
+		max-width: 719px;
+		min-width: 415px;
+	}
+	li {
+		line-height: 36px;
+		display: block;
+		margin: 10px 0px;
+	}
+	.mainmenu {
+		display: none;
+	}
+	.maintext {
+		padding-left: 50px;
+	}
+	p>a[href^="tel:"] {
+		margin-right: 55px;
+	}
+	.topbar {
+		min-width: 320px;
+		margin-left: 50px;
+		margin-right: 20px;
+	}
+	.logo {
+		width: 160px;
+		height: 20px;
+		margin-right: 20px;
+		background-size: cover;
 	}
 	.strblock {
-		font-size: 4em;
-		color: #000;
-		text-transform: uppercase;
-		letter-spacing: 5px;
-		margin-bottom: 10px;
-		line-height: 85px;
-		font-family: "Montserrat";
-	}
-
-	.pricemain {
-		font-size: 1.3em;
-		color: #000;
-		margin-bottom: 50px;
-	}
-
-	.pricemainbig {
 		font-size: 2.7em;
-		color: #000;
-		font-family: "Montserrat", sans-serif;
 	}
-
-	.moreinfo {
-		color: #fff;
-		font-size: 1.5em;
-		text-transform: uppercase;
-		padding: 20px;
-		border-radius: 50px;
-		background-color: #3244cc;
-		letter-spacing: 3px;
-		border: none;
-		cursor: pointer;
-		align-items: center;
-		text-shadow: none;
-		text-rendering: inherit;
-		box-sizing: unset;
-		font: 500 1.2em "Montserrat";
-		padding-left: 25px;
-		padding-right: 25px;
-	}
-
-	.moreinfo:hover {
-		box-shadow: 0px 6px 5px 3px #fff;
-		transition: 0.3s;
-		transition-timing-function: ease-in-out;
-		background-color: #0019D5;
-	}
-
-	.moreinfo:active {
-		margin-top: 3px;
-	}
-	.footer {
-		min-height: 330px;
-		background-color: #01072E;
+	.strsecblock {
 		width: 100%;
-	}
-
-	.fblock {
-		max-width: 1150px;
-		padding: 25px;
-		margin: auto;
-	}
-
-	.fblockfirm {
-		color: #fff;
-		padding: 10px 30px 20px 0px;
-		float: left;
-		font-size: 1em;
 		line-height: 30px;
+		font-size: 1.2em;
+		margin: auto;
+		padding: 15px;
+		box-sizing: border-box;
+	}
+	.strpriceblock {
+		line-height: 40px;
+		font-size: 1.5em;
+		widows: 100%;
+	}
+	.strpriceblockprice {
+		display: none;
+	}
+	.remcontain {
+		line-height: 40px;
+		font-size: 1.5em;
+		padding: 20px;
+	}
+	.remblock {
+		width: 97%;
+		display: block;
+		margin: 0px 10px 0px 10px;
+	}
+	div>a[href^="tel:"] {
+		font-size: 3em;
+		margin-right: 70px;
+	}
+	div>a[href^="mailto:"] {
+		font-size: 3em;
+		margin-right: 90px;
+	}
+	.strblockpaddt {
+		padding-top: 70px;
+	}
+	.strsectpr {
+		padding: 0px 20px;
+	}
+	.moreinfo {
+		font-size: 1.5em;
+		padding: 15px;
+	}
+	.fblockcontacts {
+		width: 90%;
 	}
 	.fblocksmall {
-		color: #fff;
+		width: 39%;
+		margin: 0px 20px;
+	}
+} 
+@media screen and (max-width: 414px) {
+	.wd {
+		max-width: 414px;
+		min-width: 320px;
+	}
+	.backmain {
+		height: 600px;
+	}
+	.maintext {
+		padding: 85px 20px 20px 20px;
+	}
+	p>a[href^="tel:"] {
+		margin-right: 55px;
+	}
+	.topbar {
+		min-width: 320px;
+		margin: 0;
+	}
+	.strblock {
+		font-size: 1.8em;
+		line-height: 45px;
+	}
+	.pricemain {
+		font-size: 1em;
+	}
+	.moreinfo {
+		font-size: 0.8em;
 		padding: 10px;
-		float: left;
-		font-size: 0.85	em;
+	}
+	.mainmenu {
+		display: none;
+	}
+	.logo {
+		display: none;
+	}
+	.upcontacts {
+		display: none;
 	}
 	.strsect {
 		width: 100%;
-		padding-top: 30px;
-		margin: auto;
-	}
-	.strsectpr {
-		max-width: 940px;
-		margin: auto;
-		padding: 0px 20px;
+		max-width: 414px;
+		box-sizing: border-box;
 	}
 	.strsecblock {
-		width: 450px;
-		text-align: left;
-		line-height: 25px;
-		font-size: 1em;
-		display: inline-block;
-		vertical-align: top;
-		padding: 0px 10px;
+		width: 100%;
+		line-height: 30px;
+		font-size: 1.2em;
+		display: block;
+		margin: auto;
+		padding: 15px;
 	}
 	.strsecblockim01 {
-		background-image: url(/images/str01.jpg);
 		background-repeat: no-repeat;
 		display: inline-block;
-		width: 450px;
-		height: 256px;
+		width: 100%;
+		height: 235px;
+		margin: 0;
 	}
 	.strsecblockim02 {
-		background-image: url(/images/str02.jpg);
+		background-repeat: no-repeat;
 		background-repeat: no-repeat;
 		display: inline-block;
-		width: 450px;
-		height: 256px;
-	}
-
-
-	.strpricesec {
-		background: #fff39b;
+		width: 100%;
+		height: 235px;
+		margin: 0;
+		background-position: center;
 	}
 	.strpriceblock {
-		width: 60%;
-		text-align: left;
-		line-height: 30px;
-		font-size: 1em;
-		display: inline-block;
-		vertical-align: middle;
-		margin-right: 50px;
-	}
-	.strpricesm {
-		font-size: 0.3em;
+		line-height: 40px;
+		font-size: 1.2em;
+		width: 100%;
+		margin: 0;
 	}
 	.strpriceblockprice {
-		font-size: 5em;
-		color: #001298;
-			display: inline-block;
-		vertical-align: middle;
-	}
-	.strblockpaddt {
-		padding-top: 30px;
-	}
-	.txtunderline {
-		text-decoration: underline;
-	}
-
-	.remontsect {
-		background: url(/images/remback.jpg);
-		background-repeat: no-repeat;
-		/*margin-top: -230px;*/
-		z-index: 1;
-		position: relative;
-		background-position: center center;
-	}
-	.ylwangleup {
-		background: url(/images/ylwangleup.png);
-		background-repeat: no-repeat;
-		position: relative;
-		height: 166px;
-		width: 100%;
-	}
-	.ylwanglebottom {
-		background: url(/images/ylwanglebottom.png);
-		background-repeat: no-repeat;
-		position: relative;
-		height: 166px;
-		width: 100%;
-		z-index: 20;
+		display: none;
 	}
 	.remcontain {
-		max-width: 940px;
-		padding-bottom: 50px;
-		margin: auto;
-		line-height: 30px;
+		padding: 15px;
+		font-size: 1.2em;
 	}
 	.remblock {
-		width: 47%;
-		box-sizing: border-box;
-		display: inline-block;
-		margin: 0px 10px 0px 10px;
-		vertical-align: top;
+		width: 100%;
+		display: block;
+		margin: 0px;
 	}
 	.fblockcontacts {
-		width: 32%;
-		margin: 20px;
-		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	div>a[href^="tel:"] {
+		font-size: 2.5em;
+		margin-right: 0px;
+	}
+	div>a[href^="mailto:"] {
+		font-size: 2.3em;
+		margin-right: 0px;
 	}
 	.fblocksmall {
-		width: 20%;
-		margin: 20px;
+		width: 100%;
+		margin: 0;
+	}
+} 
+@media screen and (min-width: 320px) and (max-width: 360px) {
+	.maintext {
+		padding: 65px 20px 20px 20px;
+	}
+	.backmain {
+		height: 480px;
+	}
+	.strblock {
+		font-size: 1.4em;
+		line-height: 30px;
+	}
+	.pricemain {
+		margin-bottom: 25px;
 	}
 
-	div>a[href^="tel:"] {
-		color: #fff;
-		font-weight: 500;
-		font-size: 2em;
-		float: left;
-		margin-right: 10px;
-		font-family: "moolboran";
-		letter-spacing: 2px;
-		margin-bottom: 5px;
-	}
-
-	div>a[href^="mailto:"] {
-		color: #fff;
-		font-weight: 500;
-		font-size: 2em;
-		float: left;
-		font-family: "moolboran";
-		letter-spacing: 2px;
-		margin-bottom: 5px;
-		margin-right: 10px;
-	}
-
-	.copyrights {
-		display: inline-block;
-		color: #fff;
-		font-size: 0.75em;
-		width: 90%;
-		max-width: 90%;
-		padding: 20px 10px 10px 10px;
-	}
-	.contdisp {
-		display: inline-block;
-		padding: 0px 5px;
-	}
-
-	@media screen and (max-width: 1366px) {
-		.wd {
-			max-width: 1366px;
-			min-width: 1024px;
-		}
-		.maintext {
-			padding-left: 120px;
-		}
-		p>a[href^="tel:"] {
-			margin-right: 55px;
-		}
-		.topbar {
-			min-width: 320px;
-		}
-
-	} 
-	@media screen and (max-width: 1024px) and (orientation: portrait) {
-		.wd {
-			max-width: 1024px;
-			min-width: 720px;
-		}
-		div>a[href^="tel:"] {
-			font-size: 2em;
-		}
-		div>a[href^="mailto:"] {
-			font-size: 2em;
-		}
-		.remcontain {
-			padding: 20px;
-			max-width: 680px;
-		}
-		.strsectpr {
-			max-width: 680px;
-		}
-		.fblockcontacts {
-			width: 40%;
-			margin: 0;		
-		}
-		li {
-			display: block;
-		}
-	}
-
-	@media screen and (max-width: 719px) {
-		.wd {
-			max-width: 719px;
-			min-width: 415px;
-		}
-		li {
-			line-height: 36px;
-			display: block;
-			margin: 10px 0px;
-		}
-		.mainmenu {
-			display: none;
-		}
-		.maintext {
-			padding-left: 50px;
-		}
-		p>a[href^="tel:"] {
-			margin-right: 55px;
-		}
-		.topbar {
-			min-width: 320px;
-			margin-left: 50px;
-			margin-right: 20px;
-		}
-		.logo {
-			width: 160px;
-			height: 20px;
-			margin-right: 20px;
-			background-size: cover;
-		}
-		.strblock {
-			font-size: 2.7em;
-		}
-		.strsecblock {
-			width: 100%;
-			line-height: 30px;
-			font-size: 1.2em;
-			margin: auto;
-			padding: 15px;
-			box-sizing: border-box;
-		}
-		.strpriceblock {
-			line-height: 40px;
-			font-size: 1.5em;
-			widows: 100%;
-		}
-		.strpriceblockprice {
-			display: none;
-		}
-		.remcontain {
-			line-height: 40px;
-			font-size: 1.5em;
-			padding: 20px;
-		}
-		.remblock {
-			width: 97%;
-			display: block;
-			margin: 0px 10px 0px 10px;
-		}
-		div>a[href^="tel:"] {
-			font-size: 3em;
-			margin-right: 70px;
-		}
-		div>a[href^="mailto:"] {
-			font-size: 3em;
-			margin-right: 90px;
-		}
-		.strblockpaddt {
-			padding-top: 70px;
-		}
-		.strsectpr {
-			padding: 0px 20px;
-		}
-		.moreinfo {
-			font-size: 1.5em;
-			padding: 15px;
-		}
-		.fblockcontacts {
-			width: 90%;
-		}
-		.fblocksmall {
-			width: 39%;
-			margin: 0px 20px;
-		}
-	} 
-	@media screen and (max-width: 414px) {
-		.wd {
-			max-width: 414px;
-			min-width: 320px;
-		}
-		.backmain {
-			height: 600px;
-		}
-		.maintext {
-			padding: 85px 20px 20px 20px;
-		}
-		p>a[href^="tel:"] {
-			margin-right: 55px;
-		}
-		.topbar {
-			min-width: 320px;
-			margin: 0;
-		}
-		.strblock {
-			font-size: 1.8em;
-			line-height: 45px;
-		}
-		.pricemain {
-			font-size: 1em;
-		}
-		.moreinfo {
-			font-size: 0.8em;
-			padding: 10px;
-		}
-		.mainmenu {
-			display: none;
-		}
-		.logo {
-			display: none;
-		}
-		.upcontacts {
-			display: none;
-		}
-		.strsect {
-			width: 100%;
-			max-width: 414px;
-			box-sizing: border-box;
-		}
-		.strsecblock {
-			width: 100%;
-			line-height: 30px;
-			font-size: 1.2em;
-			display: block;
-			margin: auto;
-			padding: 15px;
-		}
-		.strsecblockim01 {
-			background-repeat: no-repeat;
-			display: inline-block;
-			width: 100%;
-			height: 235px;
-			margin: 0;
-		}
-		.strsecblockim02 {
-			background-repeat: no-repeat;
-			background-repeat: no-repeat;
-			display: inline-block;
-			width: 100%;
-			height: 235px;
-			margin: 0;
-			background-position: center;
-		}
-		.strpriceblock {
-			line-height: 40px;
-			font-size: 1.2em;
-			width: 100%;
-			margin: 0;
-		}
-		.strpriceblockprice {
-			display: none;
-		}
-		.remcontain {
-			padding: 15px;
-			font-size: 1.2em;
-		}
-		.remblock {
-			width: 100%;
-			display: block;
-			margin: 0px;
-		}
-		.fblockcontacts {
-			width: 100%;
-			margin: 0;
-			padding: 10px;
-			box-sizing: border-box;
-		}
-		div>a[href^="tel:"] {
-			font-size: 2.5em;
-			margin-right: 0px;
-		}
-		div>a[href^="mailto:"] {
-			font-size: 2.3em;
-			margin-right: 0px;
-		}
-		.fblocksmall {
-			width: 100%;
-			margin: 0;
-		}
-	} 
-	@media screen and (min-width: 320px) and (max-width: 360px) {
-		.maintext {
-			padding: 65px 20px 20px 20px;
-		}
-		.backmain {
-			height: 480px;
-		}
-		.strblock {
-			font-size: 1.4em;
-			line-height: 30px;
-		}
-		.pricemain {
-			margin-bottom: 25px;
-		}
-
-	} 
+} 
