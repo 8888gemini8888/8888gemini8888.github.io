@@ -190,6 +190,8 @@ p {
 	font: 500 1.2em "Montserrat";
 	padding-left: 25px;
 	padding-right: 25px;
+	transition: 0.3s;
+    	transition-timing-function: ease-in-out;
 }
 
 .moreinfo:hover {
