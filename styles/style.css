@@ -176,23 +176,21 @@ p {
 
 .moreinfo {
 	color: #fff;
-	font-size: 1.5em;
-	text-transform: uppercase;
-	padding: 20px;
-	border-radius: 50px;
-	background-color: #3244cc;
-	letter-spacing: 3px;
-	border: none;
-	cursor: pointer;
-	align-items: center;
-	text-shadow: none;
-	text-rendering: inherit;
-	box-sizing: unset;
-	font: 500 1.2em "Montserrat";
-	padding-left: 25px;
-	padding-right: 25px;
-	transition: 0.3s;
-    	transition-timing-function: ease-in-out;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #3244cc;
+    letter-spacing: 3px;
+    border: none;
+    cursor: pointer;
+    text-shadow: none;
+    text-rendering: inherit;
+    box-sizing: unset;
+    font: 500 1.2em "Montserrat";
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    text-align: center;
 }
 
 .moreinfo:hover {
@@ -448,7 +446,7 @@ div>a[href^="mailto:"] {
 		background-size: cover;
 	}
 	.strblock {
-		font-size: 2.7em;
+		font-size: 2.3em;
 	}
 	.strsecblock {
 		width: 100%;
@@ -491,8 +489,9 @@ div>a[href^="mailto:"] {
 		padding: 0px 20px;
 	}
 	.moreinfo {
-		font-size: 1.5em;
+		font-size: 1.1em;
 		padding: 15px;
+		max-width: 360px;
 	}
 	.fblockcontacts {
 		width: 90%;
