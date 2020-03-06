@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content ="Строительство домов в Черногории. Скидка на материалы 20%. Мастер по надзору за строительством - носитель русского языка. Опыт строительства в Черногории более 12 лет">
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/owl.carousel.min.css">
+	<link rel="stylesheet" href="styles/owl.carousel.css">
+	<link rel="stylesheet" href="styles/owl.theme.default.min.css">
     <title>Строительство и ремонт в Черногории, строительная компания "Черная Гора"</title>
 </head>
 <body class="wd">
@@ -122,6 +125,20 @@
                 <p>При заключении договора на проведение работ стоимость вызова мастера включается в общую стоимость ремонта.</p>
             </div>
     </section>
+<section class="ourworks">
+	<div class="owl-carousel animated">
+		<div> <img src="images/pr/01.jpg" alt="Строительство в Черногории"> </div>
+		<div> <img src="images/pr/02.jpg" alt="Строительство дома в Черногории"> </div>
+		<div> <img src="images/pr/03.jpg" alt="Строительство дома в Черногории"> </div>
+		<div> <img src="images/pr/04.jpg" alt="Строительство дома в Черногории"> </div>
+		<div> <img src="images/pr/05.jpg" alt="Строительство домов в Черногории"> </div>
+		<div> <img src="images/pr/06.jpg" alt="Строительство дома в Черногории"> </div>
+		<div> <img src="images/pr/07.jpg" alt="Строительство дома в Черногории"> </div>
+		<div> <img src="images/pr/09.jpg" alt="Строительство в Черногории"> </div>
+		<div> <img src="images/pr/10.jpg" alt="Строительство Черногория"> </div>
+		<div> <img src="images/pr/11.jpg" alt="Строительство дома в Черногории"> </div>
+	</div>
+</section>
     <a id="contacts"></a>
     <footer class="footer">
         <div class="fblock">
@@ -148,6 +165,35 @@
             </div>
         </div>
         <div class="copyrights">© 2019. Строительная компания "Черная Гора" - строительство и ремонт в Черногории. Все права защищены. Указанная стоимость товаров и услуг, условия их приобретения действительны по состоянию на текущую дату.</div>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		  $(".owl-carousel").owlCarousel({
+			stagePadding: 50,
+			items:4,
+			loop:true,
+			margin:15,
+			autoplay:true,
+			autoplayTimeout:2300,
+			autoplayHoverPause:true,
+			nav:true,
+			dots:true,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:3
+				},
+				1000:{
+					items:5
+				}
+			}
+			});;
+		});
+
+</script>    
     </footer>
 </body>
 </html>
